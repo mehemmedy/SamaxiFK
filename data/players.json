@@ -5,7 +5,7 @@
     "position": "Qapıçı",
     "number": 1,
     "nationality": "🇵🇹",
-    "age": null,
+    "age": 31,
     "image": "https://ui-avatars.com/api/?name=RF"
   },
   {
@@ -14,7 +14,7 @@
     "position": "Qapıçı",
     "number": 62,
     "nationality": "🇦🇿",
-    "age": null,
+    "age": 28,
     "image": "https://ui-avatars.com/api/?name=AS"
   },
   {
@@ -23,17 +23,16 @@
     "position": "Qapıçı",
     "number": 99,
     "nationality": "🇦🇿",
-    "age": null,
+    "age": 19,
     "image": "https://ui-avatars.com/api/?name=SH"
   },
-
   {
     "id": 4,
     "name": "Arsen Ağcabəyov",
     "position": "Mərkəz müdafiəçisi",
     "number": 5,
     "nationality": "🇦🇿",
-    "age": null,
+    "age": 25,
     "image": "https://ui-avatars.com/api/?name=AA"
   },
   {
@@ -42,7 +41,7 @@
     "position": "Mərkəz müdafiəçisi",
     "number": 3,
     "nationality": "🇺🇦",
-    "age": null,
+    "age": 27,
     "image": "https://ui-avatars.com/api/?name=VV"
   },
   {
@@ -51,7 +50,7 @@
     "position": "Mərkəz müdafiəçisi",
     "number": 44,
     "nationality": "🇧🇷",
-    "age": null,
+    "age": 24,
     "image": "https://ui-avatars.com/api/?name=DS"
   },
   {
@@ -60,7 +59,7 @@
     "position": "Mərkəz müdafiəçisi",
     "number": 4,
     "nationality": "🇧🇷",
-    "age": null,
+    "age": 26,
     "image": "https://ui-avatars.com/api/?name=C"
   },
   {
@@ -69,7 +68,7 @@
     "position": "Sol cinah müdafiəçisi",
     "number": 82,
     "nationality": "🇦🇿",
-    "age": null,
+    "age": 21,
     "image": "https://ui-avatars.com/api/?name=RA"
   },
   {
@@ -78,7 +77,7 @@
     "position": "Sol cinah müdafiəçisi",
     "number": 14,
     "nationality": "🇦🇿",
-    "age": null,
+    "age": 20,
     "image": "https://ui-avatars.com/api/?name=RQ"
   },
   {
@@ -87,7 +86,7 @@
     "position": "Sağ cinah müdafiəçisi",
     "number": 17,
     "nationality": "🇦🇿",
-    "age": null,
+    "age": 26,
     "image": "https://ui-avatars.com/api/?name=RM"
   },
   {
@@ -96,17 +95,16 @@
     "position": "Sağ cinah müdafiəçisi",
     "number": 2,
     "nationality": "🇦🇿",
-    "age": null,
+    "age": 24,
     "image": "https://ui-avatars.com/api/?name=AR"
   },
-
   {
     "id": 12,
     "name": "Alphonce Msanga",
     "position": "Dayaq yarımmüdafiəçisi",
     "number": 8,
     "nationality": "🇹🇿",
-    "age": null,
+    "age": 22,
     "image": "https://ui-avatars.com/api/?name=AM"
   },
   {
@@ -115,7 +113,7 @@
     "position": "Dayaq yarımmüdafiəçisi",
     "number": 13,
     "nationality": "🇧🇷",
-    "age": null,
+    "age": 26,
     "image": "https://ui-avatars.com/api/?name=RA"
   },
   {
@@ -124,7 +122,7 @@
     "position": "Dayaq yarımmüdafiəçisi",
     "number": 88,
     "nationality": "🇵🇹",
-    "age": null,
+    "age": 25,
     "image": "https://ui-avatars.com/api/?name=RF"
   },
   {
@@ -133,7 +131,7 @@
     "position": "Mərkəz yarımmüdafiəçisi",
     "number": 97,
     "nationality": "🇦🇿",
-    "age": null,
+    "age": 21,
     "image": "https://ui-avatars.com/api/?name=OM"
   },
   {
@@ -142,7 +140,7 @@
     "position": "Mərkəz yarımmüdafiəçisi",
     "number": 27,
     "nationality": "🇦🇿",
-    "age": null,
+    "age": 21,
     "image": "https://ui-avatars.com/api/?name=ES"
   },
   {
@@ -151,7 +149,7 @@
     "position": "Mərkəz yarımmüdafiəçisi",
     "number": 48,
     "nationality": "🇦🇿",
-    "age": null,
+    "age": 20,
     "image": "https://ui-avatars.com/api/?name=RM"
   },
   {
@@ -160,7 +158,7 @@
     "position": "Hücumameyilli yarımmüdafiəçi",
     "number": 7,
     "nationality": "🇦🇿",
-    "age": null,
+    "age": 20,
     "image": "https://ui-avatars.com/api/?name=EA"
   },
   {
@@ -169,7 +167,7 @@
     "position": "Hücumameyilli yarımmüdafiəçi",
     "number": 10,
     "nationality": "🇷🇴",
-    "age": null,
+    "age": 28,
     "image": "https://ui-avatars.com/api/?name=AT"
   },
   {
@@ -178,17 +176,16 @@
     "position": "Hücumameyilli yarımmüdafiəçi",
     "number": 21,
     "nationality": "🇦🇿",
-    "age": null,
+    "age": 22,
     "image": "https://ui-avatars.com/api/?name=BI"
   },
-
   {
     "id": 21,
     "name": "Diogo Balau",
     "position": "Sağ cinah hücumçusu",
     "number": 11,
     "nationality": "🇵🇹",
-    "age": null,
+    "age": 26,
     "image": "https://ui-avatars.com/api/?name=DB"
   },
   {
@@ -197,7 +194,7 @@
     "position": "Sağ cinah hücumçusu",
     "number": 80,
     "nationality": "🇦🇿",
-    "age": null,
+    "age": 22,
     "image": "https://ui-avatars.com/api/?name=HI"
   },
   {
@@ -206,7 +203,7 @@
     "position": "Sağ cinah hücumçusu",
     "number": 77,
     "nationality": "🇦🇿",
-    "age": null,
+    "age": 20,
     "image": "https://ui-avatars.com/api/?name=NM"
   },
   {
@@ -215,7 +212,7 @@
     "position": "Mərkəz hücumçusu",
     "number": 9,
     "nationality": "🇧🇷",
-    "age": null,
+    "age": 31,
     "image": "https://ui-avatars.com/api/?name=KR"
   },
   {
@@ -224,7 +221,7 @@
     "position": "Mərkəz hücumçusu",
     "number": 19,
     "nationality": "🇳🇬",
-    "age": null,
+    "age": 24,
     "image": "https://ui-avatars.com/api/?name=AS"
   },
   {
@@ -233,7 +230,7 @@
     "position": "Mərkəz hücumçusu",
     "number": 90,
     "nationality": "🇦🇿",
-    "age": null,
+    "age": 19,
     "image": "https://ui-avatars.com/api/?name=DM"
   }
 ]

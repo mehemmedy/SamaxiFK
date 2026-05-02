@@ -52,7 +52,7 @@ function createPlayerCard(player) {
         <div class="player-img-wrap">
           
           <img src="${player.image}" alt="${player.name}" class="player-avatar" loading="lazy">
-          <div class="player-number-badge">${player.number}</div>
+          <div class="player-number-badge"><span>${player.number}</span></div>
         </div>
         <div class="player-info">
           <div class="player-name">${player.name}</div>
@@ -87,8 +87,8 @@ function createMatchCard(match) {
           <div class="match-team"><div class="match-team-name">${match.away}</div></div>
         </div>
         <div class="match-meta">
-          <span class="match-date">📅 ${formatDate(match.date)} — ${match.time}</span>
-          <span class="match-venue">🏟 ${match.venue}</span>
+          <span class="match-date">📅 ${match.date}</span>
+          <span class="match-venue">🏟 ${match.venue_type}</span>
         </div>
       </div>
     </div>`;
@@ -111,11 +111,87 @@ async function initMatchesPage() {
   if (!gridEl) return;
 
   const matches = await fetchJSON("data/matches.json");
-  if (!matches) return;
+  if (!matches || !matches.length) {
+    gridEl.innerHTML = `<div class="col-12 text-center py-5 text-muted-c">Oyun tapılmadı.</div>`;
+    return;
+  }
 
-  gridEl.innerHTML = matches.length
-    ? matches.map((m) => createMatchCard(m)).join("")
-    : `<div class="col-12 text-center py-5 text-muted-c">Oyun tapılmadı.</div>`;
+  const PER_PAGE = 6;
+  let currentPage = 1;
+
+  function totalPages() {
+    return Math.ceil(matches.length / PER_PAGE);
+  }
+
+  function renderCards() {
+    const start = (currentPage - 1) * PER_PAGE;
+    const page = matches.slice(start, start + PER_PAGE);
+
+    gridEl.innerHTML = page.length
+      ? page.map((m) => createMatchCard(m)).join("")
+      : `<div class="col-12 text-center py-5 text-muted-c">Oyun tapılmadı.</div>`;
+
+    if (window.IntersectionObserver) {
+      $$(".match-card", gridEl).forEach((el) => {
+        el.style.opacity = "0";
+        el.style.transform = "translateY(20px)";
+        el.style.transition = "opacity 0.5s ease, transform 0.5s ease";
+        new IntersectionObserver(
+          (entries, obs) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.style.opacity = "1";
+                entry.target.style.transform = "translateY(0)";
+                obs.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.1 }
+        ).observe(el);
+      });
+    }
+  }
+
+  function renderPagination() {
+    let pag = $("#matches-pagination");
+    if (!pag) {
+      pag = document.createElement("div");
+      pag.id = "matches-pagination";
+      pag.className = "matches-pagination";
+      gridEl.parentElement.insertAdjacentElement("afterend", pag);
+    }
+
+    const total = totalPages();
+    if (total <= 1) { pag.innerHTML = ""; return; }
+
+    const btn = (label, page, disabled = false, active = false) =>
+      `<button class="pag-btn${active ? " active" : ""}" data-page="${page}" ${disabled ? "disabled" : ""}>${label}</button>`;
+
+    let html = btn("&#8592;", currentPage - 1, currentPage === 1);
+
+    for (let i = 1; i <= total; i++) {
+      if (total > 7 && i > 2 && i < total - 1 && Math.abs(i - currentPage) > 1) {
+        if (i === 3 || i === total - 2) html += `<span class="pag-ellipsis">…</span>`;
+        continue;
+      }
+      html += btn(i, i, false, i === currentPage);
+    }
+
+    html += btn("&#8594;", currentPage + 1, currentPage === total);
+    pag.innerHTML = html;
+
+    pag.querySelectorAll(".pag-btn:not([disabled])").forEach((b) => {
+      b.addEventListener("click", () => {
+        currentPage = parseInt(b.dataset.page);
+        renderCards();
+        renderPagination();
+        gridEl.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    });
+  }
+
+  renderCards();
+  renderPagination();
 }
 
 /* ── Navbar Hamburger Toggle ── */
@@ -154,7 +230,7 @@ function initNavScroll() {
       navbar.style.boxShadow =
         window.scrollY > 50 ? "0 4px 30px rgba(0,0,0,0.6)" : "none";
     },
-    { passive: true },
+    { passive: true }
   );
 }
 
@@ -170,7 +246,7 @@ function initScrollAnimations() {
         }
       });
     },
-    { threshold: 0.1 },
+    { threshold: 0.1 }
   );
 
   $$(".card-glass, .match-card, .player-card").forEach((el) => {

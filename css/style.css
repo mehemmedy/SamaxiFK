@@ -860,19 +860,25 @@ body {
 
 .player-number-badge {
   position: absolute;
-  top: 12px;
-  right: 12px;
-  background: linear-gradient(135deg, var(--clr-accent2), var(--clr-accent));
-  color: #fff;
-  font-family: var(--font-display);
-  font-size: 1.1rem;
-  letter-spacing: 1px;
-  width: 36px;
-  height: 36px;
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 46px 46px 0;
+  border-color: transparent rgba(79,195,247,0.25);
+  border-top-right-radius: 12px;
+}
+
+.player-number-badge span {
+  position: absolute;
+  top: 5px;
+  right: -42px;
+  font-size: 17px;
+  font-weight: 700;
+  font-family: var(--font-heading);
+  color: #4fc3f7;
+  letter-spacing: 0;
 }
 
 .player-info {
@@ -1120,4 +1126,36 @@ footer {
   .match-team-name {
     font-size: 0.82rem;
   }
+}
+
+
+.matches-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.pag-btn {
+  min-width: 38px;
+  height: 38px;
+  padding: 0 10px;
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 8px;
+  background: transparent;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.pag-btn:hover { background: rgba(255,255,255,0.1); }
+.pag-btn.active { background: rgba(255,255,255,0.2); border-color: rgba(255,255,255,0.4); }
+.pag-btn:disabled { opacity: 0.3; cursor: default; }
+
+.pag-ellipsis {
+  color: rgba(255,255,255,0.4);
+  padding: 0 4px;
 }
