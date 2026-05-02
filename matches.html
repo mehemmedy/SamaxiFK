@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oyunlar</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body data-page="matches">
+
+  <!-- ── Naviqasiya ── -->
+  <nav class="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="favicon.png" style="height: 40px;" alt="">
+        Şamaxı FK
+      </a>
+      <button class="navbar-toggler" id="navToggler" aria-label="Menyu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="navbar-collapse" id="navMenu">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Ana Səhifə</a></li>
+          <li class="nav-item"><a class="nav-link" href="team.html">Komanda</a></li>
+          <li class="nav-item"><a class="nav-link active" href="matches.html">Oyunlar</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── Başlıq ── -->
+  <section class="section-pad-sm page-section" style="background: linear-gradient(135deg, #050d1a, #071e3d); border-bottom: 1px solid var(--clr-border);">
+    <div class="container">
+      <div class="section-label">Cədvəl</div>
+      <h1 class="section-title">OYUNLAR / FİKSTUR</h1>
+      <div class="section-divider"></div>
+      <p class="text-muted-c" style="max-width:500px">Keçmiş oyunların nəticələri və gələcək qarşılaşmalar.</p>
+
+      
+    </div>
+  </section>
+
+  <!-- ── Oyunlar Siyahısı ── -->
+  <section class="section-pad page-section">
+    <div class="container">
+      <div class="row g-3" id="matches-grid">
+        <div class="col-12 text-center py-5">
+          <div class="loading-spinner mx-auto"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  
+   <div style="padding: 40px;" class="footer-bottom">
+        © 2025 Şamaxı FK. Bütün hüquqlar qorunur.
+      </div>
+ 
+
+  <script src="js/main.js"></script>
+</body>
+</html>

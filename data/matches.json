@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "home": "Şamaxı FK",
+    "away": "Qarabağ FK",
+    "date": "2025-04-20",
+    "time": "18:00",
+    "score_home": 2,
+    "score_away": 1,
+    "status": "tamamlandı",
+    "competition": "Premyer Liqa",
+    "venue": "Şamaxı Şəhər Stadionu"
+  },
+  {
+    "id": 2,
+    "home": "Neftçi PFK",
+    "away": "Şamaxı FK",
+    "date": "2025-04-13",
+    "time": "20:00",
+    "score_home": 0,
+    "score_away": 2,
+    "status": "tamamlandı",
+    "competition": "Premyer Liqa",
+    "venue": "Neftçi Akademiya Stadionu"
+  },
+  {
+    "id": 3,
+    "home": "Şamaxı FK",
+    "away": "Sabah FK",
+    "date": "2025-04-06",
+    "time": "17:00",
+    "score_home": 1,
+    "score_away": 1,
+    "status": "tamamlandı",
+    "competition": "Premyer Liqa",
+    "venue": "Şamaxı Şəhər Stadionu"
+  },
+  {
+    "id": 4,
+    "home": "Zirə FK",
+    "away": "Şamaxı FK",
+    "date": "2025-03-30",
+    "time": "16:00",
+    "score_home": 3,
+    "score_away": 1,
+    "status": "tamamlandı",
+    "competition": "Premyer Liqa",
+    "venue": "Zirə Stadionu"
+  },
+  {
+    "id": 5,
+    "home": "Şamaxı FK",
+    "away": "Turan Tovuz",
+    "date": "2025-03-23",
+    "time": "15:00",
+    "score_home": 3,
+    "score_away": 0,
+    "status": "tamamlandı",
+    "competition": "Premyer Liqa",
+    "venue": "Şamaxı Şəhər Stadionu"
+  },
+  {
+    "id": 6,
+    "home": "Şamaxı FK",
+    "away": "Keşlə FK",
+    "date": "2025-05-10",
+    "time": "18:00",
+    "score_home": null,
+    "score_away": null,
+    "status": "gözlənilir",
+    "competition": "Premyer Liqa",
+    "venue": "Şamaxı Şəhər Stadionu"
+  },
+  {
+    "id": 7,
+    "home": "Qarabağ FK",
+    "away": "Şamaxı FK",
+    "date": "2025-05-18",
+    "time": "20:00",
+    "score_home": null,
+    "score_away": null,
+    "status": "gözlənilir",
+    "competition": "Premyer Liqa",
+    "venue": "Tofiq Bəhramov adına Respublika Stadionu"
+  },
+  {
+    "id": 8,
+    "home": "Şamaxı FK",
+    "away": "Neftçi PFK",
+    "date": "2025-05-25",
+    "time": "17:00",
+    "score_home": null,
+    "score_away": null,
+    "status": "gözlənilir",
+    "competition": "Azərbaycan Kuboku",
+    "venue": "Şamaxı Şəhər Stadionu"
+  }
+]

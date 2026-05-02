@@ -1,0 +1,239 @@
+[
+  {
+    "id": 1,
+    "name": "Ricardo Fernandes",
+    "position": "Qapıçı",
+    "number": 1,
+    "nationality": "🇵🇹",
+    "age": null,
+    "image": "https://ui-avatars.com/api/?name=RF"
+  },
+  {
+    "id": 2,
+    "name": "Abdulla Seydəhmədov",
+    "position": "Qapıçı",
+    "number": 62,
+    "nationality": "🇦🇿",
+    "age": null,
+    "image": "https://ui-avatars.com/api/?name=AS"
+  },
+  {
+    "id": 3,
+    "name": "Səlim Həşimov",
+    "position": "Qapıçı",
+    "number": 99,
+    "nationality": "🇦🇿",
+    "age": null,
+    "image": "https://ui-avatars.com/api/?name=SH"
+  },
+
+  {
+    "id": 4,
+    "name": "Arsen Ağcabəyov",
+    "position": "Mərkəz müdafiəçisi",
+    "number": 5,
+    "nationality": "🇦🇿",
+    "age": null,
+    "image": "https://ui-avatars.com/api/?name=AA"
+  },
+  {
+    "id": 5,
+    "name": "Vladyslav Veremeev",
+    "position": "Mərkəz müdafiəçisi",
+    "number": 3,
+    "nationality": "🇺🇦",
+    "age": null,
+    "image": "https://ui-avatars.com/api/?name=VV"
+  },
+  {
+    "id": 6,
+    "name": "David Santos",
+    "position": "Mərkəz müdafiəçisi",
+    "number": 44,
+    "nationality": "🇧🇷",
+    "age": null,
+    "image": "https://ui-avatars.com/api/?name=DS"
+  },
+  {
+    "id": 7,
+    "name": "Cézar",
+    "position": "Mərkəz müdafiəçisi",
+    "number": 4,
+    "nationality": "🇧🇷",
+    "age": null,
+    "image": "https://ui-avatars.com/api/?name=C"
+  },
+  {
+    "id": 8,
+    "name": "Rüfət Abbasov",
+    "position": "Sol cinah müdafiəçisi",
+    "number": 82,
+    "nationality": "🇦🇿",
+    "age": null,
+    "image": "https://ui-avatars.com/api/?name=RA"
+  },
+  {
+    "id": 9,
+    "name": "Ravil Qafarov",
+    "position": "Sol cinah müdafiəçisi",
+    "number": 14,
+    "nationality": "🇦🇿",
+    "age": null,
+    "image": "https://ui-avatars.com/api/?name=RQ"
+  },
+  {
+    "id": 10,
+    "name": "Rafael Məhərrəmli",
+    "position": "Sağ cinah müdafiəçisi",
+    "number": 17,
+    "nationality": "🇦🇿",
+    "age": null,
+    "image": "https://ui-avatars.com/api/?name=RM"
+  },
+  {
+    "id": 11,
+    "name": "Abdulla Rzayev",
+    "position": "Sağ cinah müdafiəçisi",
+    "number": 2,
+    "nationality": "🇦🇿",
+    "age": null,
+    "image": "https://ui-avatars.com/api/?name=AR"
+  },
+
+  {
+    "id": 12,
+    "name": "Alphonce Msanga",
+    "position": "Dayaq yarımmüdafiəçisi",
+    "number": 8,
+    "nationality": "🇹🇿",
+    "age": null,
+    "image": "https://ui-avatars.com/api/?name=AM"
+  },
+  {
+    "id": 13,
+    "name": "Ricardo Apolinário",
+    "position": "Dayaq yarımmüdafiəçisi",
+    "number": 13,
+    "nationality": "🇧🇷",
+    "age": null,
+    "image": "https://ui-avatars.com/api/?name=RA"
+  },
+  {
+    "id": 14,
+    "name": "Rodrigo Fernandes",
+    "position": "Dayaq yarımmüdafiəçisi",
+    "number": 88,
+    "nationality": "🇵🇹",
+    "age": null,
+    "image": "https://ui-avatars.com/api/?name=RF"
+  },
+  {
+    "id": 15,
+    "name": "Oruc Məmmədov",
+    "position": "Mərkəz yarımmüdafiəçisi",
+    "number": 97,
+    "nationality": "🇦🇿",
+    "age": null,
+    "image": "https://ui-avatars.com/api/?name=OM"
+  },
+  {
+    "id": 16,
+    "name": "Emil Süleymanov",
+    "position": "Mərkəz yarımmüdafiəçisi",
+    "number": 27,
+    "nationality": "🇦🇿",
+    "age": null,
+    "image": "https://ui-avatars.com/api/?name=ES"
+  },
+  {
+    "id": 17,
+    "name": "Ramiz Muradov",
+    "position": "Mərkəz yarımmüdafiəçisi",
+    "number": 48,
+    "nationality": "🇦🇿",
+    "age": null,
+    "image": "https://ui-avatars.com/api/?name=RM"
+  },
+  {
+    "id": 18,
+    "name": "Edqar Adıxanov",
+    "position": "Hücumameyilli yarımmüdafiəçi",
+    "number": 7,
+    "nationality": "🇦🇿",
+    "age": null,
+    "image": "https://ui-avatars.com/api/?name=EA"
+  },
+  {
+    "id": 19,
+    "name": "Andrei Tîrcoveanu",
+    "position": "Hücumameyilli yarımmüdafiəçi",
+    "number": 10,
+    "nationality": "🇷🇴",
+    "age": null,
+    "image": "https://ui-avatars.com/api/?name=AT"
+  },
+  {
+    "id": 20,
+    "name": "Bilal İsmayılov",
+    "position": "Hücumameyilli yarımmüdafiəçi",
+    "number": 21,
+    "nationality": "🇦🇿",
+    "age": null,
+    "image": "https://ui-avatars.com/api/?name=BI"
+  },
+
+  {
+    "id": 21,
+    "name": "Diogo Balau",
+    "position": "Sağ cinah hücumçusu",
+    "number": 11,
+    "nationality": "🇵🇹",
+    "age": null,
+    "image": "https://ui-avatars.com/api/?name=DB"
+  },
+  {
+    "id": 22,
+    "name": "Həbib İsmayılov",
+    "position": "Sağ cinah hücumçusu",
+    "number": 80,
+    "nationality": "🇦🇿",
+    "age": null,
+    "image": "https://ui-avatars.com/api/?name=HI"
+  },
+  {
+    "id": 23,
+    "name": "Nihat Mehralıyev",
+    "position": "Sağ cinah hücumçusu",
+    "number": 77,
+    "nationality": "🇦🇿",
+    "age": null,
+    "image": "https://ui-avatars.com/api/?name=NM"
+  },
+  {
+    "id": 24,
+    "name": "Karim Rossi",
+    "position": "Mərkəz hücumçusu",
+    "number": 9,
+    "nationality": "🇧🇷",
+    "age": null,
+    "image": "https://ui-avatars.com/api/?name=KR"
+  },
+  {
+    "id": 25,
+    "name": "Abdullahi Shuaibu",
+    "position": "Mərkəz hücumçusu",
+    "number": 19,
+    "nationality": "🇳🇬",
+    "age": null,
+    "image": "https://ui-avatars.com/api/?name=AS"
+  },
+  {
+    "id": 26,
+    "name": "Davud Mənsimov",
+    "position": "Mərkəz hücumçusu",
+    "number": 90,
+    "nationality": "🇦🇿",
+    "age": null,
+    "image": "https://ui-avatars.com/api/?name=DM"
+  }
+]
