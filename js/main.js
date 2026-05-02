@@ -50,7 +50,7 @@ function createPlayerCard(player) {
     <div class="col-6 col-md-4 col-lg-3 player-item" data-position="${player.position}">
       <div class="player-card">
         <div class="player-img-wrap">
-          <span class="player-number-bg">${player.number}</span>
+          
           <img src="${player.image}" alt="${player.name}" class="player-avatar" loading="lazy">
           <div class="player-number-badge">${player.number}</div>
         </div>
